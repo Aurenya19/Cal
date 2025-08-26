@@ -2,8 +2,8 @@ import tkinter as t
 
 root = t.Tk()
 root.title("Advanced Calculator")
-root.geometry("350x500")
-root.resizable(False, False)
+root.size("350x400")
+root.config(bg="black")
 
 entry = t.Entry(
     root,
